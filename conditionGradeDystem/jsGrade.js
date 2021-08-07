@@ -20,3 +20,17 @@ var result = 3
     }else {
         console.log('you are faill stupid')
     }
+
+// out topic 
+
+    for (var i = 0; i<50;i++){
+        if (i % 3 == 0 && i % 5 == 0){
+            console.log(i + ' i % 3 == 0 && i % 5 == 0')
+        }else if (i % 3 == 0){
+            console.log(i +' i % 3 =0  ')
+        }else if (i % 5 == 0 && i % 5 == 0){
+            console.log(i + ' i % 5 =0 ' )
+        }else{
+            console.log(i)
+        }
+    }
